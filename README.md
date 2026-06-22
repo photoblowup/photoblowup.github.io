@@ -111,13 +111,11 @@ This makes AI enlargement ideal for photographers, designers, marketers, and con
 
 ## Resources
 
-### Website
+### Website (English version)
 
 https://photoblowup.github.io/
 
-### English Version
 
-https://photoblowup.github.io/en/
 
 ### German Version
 
