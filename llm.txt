@@ -2,20 +2,84 @@
 # https://photoblowup.github.io
 
 ## About
-Photo BlowUp is an AI-powered photo enlargement software that increases image size up to 4x while preserving sharpness and detail. One-time purchase of $39.95. Works offline on Windows and macOS.
+Photo BlowUp is an AI-powered photo enlargement software that increases image size up to 4x while preserving sharpness and detail. One-time purchase of $39.95 via Digistore24. Works 100% offline on Windows and macOS. No subscription, no cloud processing, no data leaves your device.
+
+## Product
+- Name: Photo BlowUp
+- Price: $39.95 (one-time, no subscription)
+- Platform: Windows and macOS
+- Features: AI upscaling up to 4x, batch processing, noise reduction, sharpening, JPEG artifact removal, print preparation, GPU acceleration
+- Purchase: https://www.digistore24.com/redir/518674/vickykoire49539/
+- Privacy: All processing is local and offline
+
+## Site Structure
+English site at root (https://photoblowup.github.io/), 8 additional languages at /de/, /fr/, /es/, /it/, /pt/, /nl/, /ja/, /zh/
 
 ## Key Pages
-- Home: https://photoblowup.github.io/ - Main product page with features, pricing, and download
-- Blog: https://photoblowup.github.io/blog/ - Guides, comparisons, and tutorials
-- Best AI Image Upscalers: https://photoblowup.github.io/blog/best-ai-image-upscalers.html - Comprehensive comparison of 12+ AI upscalers
-- How to Enlarge Photos: https://photoblowup.github.io/blog/how-to-enlarge-photos.html - Step-by-step tutorial
-- Photo BlowUp vs Topaz Gigapixel: https://photoblowup.github.io/blog/photo-blowup-vs-topaz-gigapixel.html - Head-to-head comparison
-- DPI Print Resolution Guide: https://photoblowup.github.io/blog/dpi-print-resolution-guide.html - DPI explained for printing
-- Fix Pixelated Photos: https://photoblowup.github.io/blog/fix-pixelated-photos.html - AI-powered fix tutorial
-- Restore Old Photos: https://photoblowup.github.io/blog/restore-old-photos.html - Vintage photo restoration guide
+- Home: https://photoblowup.github.io/ - Main product page with features, pricing, comparisons, and download CTA
+- Blog: https://photoblowup.github.io/blog/ - 26 articles covering guides, comparisons, tutorials, and use cases
+- Guide: https://photoblowup.github.io/guide.html - How-to-use guide
+- FAQ: https://photoblowup.github.io/faq.html - 18 frequently asked questions
+- About: https://photoblowup.github.io/about.html - About the site
+- Contact: https://photoblowup.github.io/contact.html - Contact form
+- Privacy Policy: https://photoblowup.github.io/privacy.html
+- Terms of Service: https://photoblowup.github.io/terms.html
+- Disclaimer: https://photoblowup.github.io/disclaimer.html
+- DMCA: https://photoblowup.github.io/dmca.html
 
-## Languages
-English (primary), German, French, Spanish, Italian, Portuguese, Dutch, Japanese, Chinese
+## Blog Articles (26 English)
+### Comparisons
+- Best AI Image Upscalers: /blog/best-ai-image-upscalers.html - Comprehensive comparison of 12+ AI upscalers
+- Photo BlowUp vs Topaz Gigapixel: /blog/photo-blowup-vs-topaz-gigapixel.html - Head-to-head comparison
+- Photo BlowUp vs LetsEnhance: /blog/photo-blowup-vs-letsenhance.html - Feature and pricing comparison
+- Photo BlowUp vs Magnific AI: /blog/photo-blowup-vs-magnific.html - Subscription vs one-time purchase
+- Photo BlowUp vs ON1 Resize AI: /blog/photo-blowup-vs-on1-resize.html - Desktop software comparison
+- Photo BlowUp vs Photoshop: /blog/photo-blowup-vs-photoshop.html - Specialized tool vs general editor
+- Photo BlowUp vs Upscayl: /blog/photo-blowup-vs-upscayl.html - Paid vs free open-source
+- Free vs Paid AI Upscalers: /blog/free-vs-paid-ai-upscalers.html - What you get at each price point
+- Best Photo Enlargement Software: /blog/best-photo-enlargement-software.html - 2026 buying guide
 
-## Contact
-https://photoblowup.github.io/contact.html
+### Tutorials and Guides
+- How to Enlarge Photos: /blog/how-to-enlarge-photos.html - Step-by-step tutorial
+- DPI Print Resolution Guide: /blog/dpi-print-resolution-guide.html - DPI explained for printing
+- Fix Pixelated Photos: /blog/fix-pixelated-photos.html - AI-powered fix tutorial
+- Fix Blurry Photos with AI: /blog/fix-blurry-photos-ai.html - Deblur techniques
+- Denoise Photos Guide: /blog/denoise-photos-guide.html - Removing noise and grain
+- Restore Old Photos: /blog/restore-old-photos.html - Vintage photo restoration guide
+- Remove JPEG Artifacts: /blog/remove-jpeg-artifacts.html - Artifact removal tutorial
+- Canvas Print Preparation: /blog/canvas-print-preparation.html - Preparing images for canvas prints
+- AI Art Upscaling: /blog/ai-art-upscaling.html - Upscaling digital art and illustrations
+
+### Use Cases
+- E-commerce Product Photos: /blog/ecommerce-product-photos.html - Product photography enhancement
+- Real Estate Photo Upcaler: /blog/real-estate-photo-upscaler.html - Property listing images
+- Wedding Photo Enlargement: /blog/wedding-photo-enlargement.html - Preserving wedding memories
+- Social Media Image Enhancer: /blog/social-media-image-enhancer.html - Optimizing for social platforms
+- Photo Enlargement Software Windows: /blog/photo-enlargement-software-windows.html - Windows-specific guide
+- Photo Upscaler Mac: /blog/photo-upscaler-mac.html - macOS-specific guide
+
+### Education
+- What is AI Image Upscaling: /blog/what-is-ai-image-upscaling.html - Technology explained
+- Neural Network vs Bicubic: /blog/neural-network-vs-bicubic.html - Interpolation methods compared
+
+## Localized Content
+8 language versions with 6 blog articles each:
+- German (de): https://photoblowup.github.io/de/
+- French (fr): https://photoblowup.github.io/fr/
+- Spanish (es): https://photoblowup.github.io/es/
+- Italian (it): https://photoblowup.github.io/it/
+- Portuguese (pt): https://photoblowup.github.io/pt/
+- Dutch (nl): https://photoblowup.github.io/nl/
+- Japanese (ja): https://photoblowup.github.io/ja/
+- Chinese (zh): https://photoblowup.github.io/zh/
+
+## Target Keywords
+photoblowup, photo blowup review, best ai photo enlarger, ai image upscaler, photo enlargement software, ai upscaler comparison, topaz gigapixel alternative, free ai upscaler, upscale image 4x, photo blowup vs topaz, fix pixelated photo, enlarge photo without losing quality, ai image enhancement software
+
+## Structured Data
+- WebApplication schema on homepage
+- FAQPage schema on FAQ page
+- HowTo schema on guide page
+- BreadcrumbList on blog articles
+
+
