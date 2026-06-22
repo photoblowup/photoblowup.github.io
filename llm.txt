@@ -1,0 +1,21 @@
+# Photo BlowUp - AI Photo Enlargement Software
+# https://photoblowup.github.io
+
+## About
+Photo BlowUp is an AI-powered photo enlargement software that increases image size up to 4x while preserving sharpness and detail. One-time purchase of $39.95. Works offline on Windows and macOS.
+
+## Key Pages
+- Home: https://photoblowup.github.io/ - Main product page with features, pricing, and download
+- Blog: https://photoblowup.github.io/blog/ - Guides, comparisons, and tutorials
+- Best AI Image Upscalers: https://photoblowup.github.io/blog/best-ai-image-upscalers.html - Comprehensive comparison of 12+ AI upscalers
+- How to Enlarge Photos: https://photoblowup.github.io/blog/how-to-enlarge-photos.html - Step-by-step tutorial
+- Photo BlowUp vs Topaz Gigapixel: https://photoblowup.github.io/blog/photo-blowup-vs-topaz-gigapixel.html - Head-to-head comparison
+- DPI Print Resolution Guide: https://photoblowup.github.io/blog/dpi-print-resolution-guide.html - DPI explained for printing
+- Fix Pixelated Photos: https://photoblowup.github.io/blog/fix-pixelated-photos.html - AI-powered fix tutorial
+- Restore Old Photos: https://photoblowup.github.io/blog/restore-old-photos.html - Vintage photo restoration guide
+
+## Languages
+English (primary), German, French, Spanish, Italian, Portuguese, Dutch, Japanese, Chinese
+
+## Contact
+https://photoblowup.github.io/contact.html
