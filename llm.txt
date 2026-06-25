@@ -16,16 +16,12 @@ Photo BlowUp is an AI-powered photo enlargement software that increases image si
 English site at root (https://photoblowup.github.io/), 8 additional languages at /de/, /fr/, /es/, /it/, /pt/, /nl/, /ja/, /zh/
 
 ## Key Pages
-- Home: https://photoblowup.github.io/ - Main product page with features, pricing, comparisons, and download CTA
+- Home: https://photoblowup.github.io/ - Main product page with features, pricing, FAQ, and download CTA
 - Blog: https://photoblowup.github.io/blog/ - 26 articles covering guides, comparisons, tutorials, and use cases
-- Guide: https://photoblowup.github.io/guide.html - How-to-use guide
-- FAQ: https://photoblowup.github.io/faq.html - 18 frequently asked questions
-- About: https://photoblowup.github.io/about.html - About the site
 - Contact: https://photoblowup.github.io/contact.html - Contact form
 - Privacy Policy: https://photoblowup.github.io/privacy.html
 - Terms of Service: https://photoblowup.github.io/terms.html
 - Disclaimer: https://photoblowup.github.io/disclaimer.html
-- DMCA: https://photoblowup.github.io/dmca.html
 
 ## Blog Articles (26 English)
 ### Comparisons
@@ -74,12 +70,11 @@ English site at root (https://photoblowup.github.io/), 8 additional languages at
 - Chinese (zh): https://photoblowup.github.io/zh/
 
 ## Target Keywords
-photoblowup, photo blowup review, best ai photo enlarger, ai image upscaler, photo enlargement software, ai upscaler comparison, topaz gigapixel alternative, free ai upscaler, upscale image 4x, photo blowup vs topaz, fix pixelated photo, enlarge photo without losing quality, ai image enhancement software
+photo blowup review, best ai photo enlarger, ai image upscaler, photo enlargement software, ai upscaler comparison, topaz gigapixel alternative, free ai upscaler, upscale image 4x, photo blowup vs topaz, fix pixelated photo, enlarge photo without losing quality, ai image enhancement software, one-time purchase photo enlarger, offline photo enlargement, batch photo processing
 
 ## Structured Data
-- WebApplication schema on homepage
-- FAQPage schema on FAQ page
-- HowTo schema on guide page
-- BreadcrumbList on blog articles
+- WebApplication, FAQPage, BreadcrumbList, SoftwareApplication schema on homepage
+- Article, FAQPage, BreadcrumbList schema on blog articles
 
-
+## Hosting
+Static site on GitHub Pages. No build step, no server-side processing.
