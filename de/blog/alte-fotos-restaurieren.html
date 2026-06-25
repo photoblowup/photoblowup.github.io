@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alte Fotos mit KI restaurieren: Anleitung für Einsteiger</title>
+    <link rel="icon" type="image/x-icon" href="../../icons/favicon.ico">
+    <meta name="description" content="Lernen Sie, wie Sie alte Fotos mit KI restaurieren. Schritt-für-Schritt-Anleitung für Anfänger – von der Digitalisierung bis zum druckfertigen Ergebnis.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://photoblowup.github.io/de/blog/alte-fotos-restaurieren.html">
+
+    <meta property="og:title" content="Alte Fotos mit KI restaurieren: Anleitung für Einsteiger">
+    <meta property="og:description" content="Schritt-für-Schritt-Anleitung zur KI-Restaurierung alter Fotos – von der Digitalisierung bis zum druckfertigen Ergebnis.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://photoblowup.github.io/de/blog/alte-fotos-restaurieren.html">
+    <meta property="og:image" content="https://photoblowup.github.io/images/og-image.png">
+    <meta property="og:locale" content="de_DE">
+    <meta property="article:published_time" content="2026-06-23">
+    <meta property="article:modified_time" content="2026-06-23">
+    <meta property="article:author" content="Photo BlowUp Team">
+    <meta property="article:section" content="Anwendungsfall">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Alte Fotos mit KI restaurieren: Anleitung für Einsteiger">
+    <meta name="twitter:description" content="Schritt-für-Schritt-Anleitung zur KI-Restaurierung alter Fotos.">
+    <meta name="twitter:image" content="https://photoblowup.github.io/images/og-image.png">
+
+    <link rel="alternate" hreflang="en" href="https://photoblowup.github.io/blog/restore-old-photos.html">
+    <link rel="alternate" hreflang="de" href="https://photoblowup.github.io/de/blog/alte-fotos-restaurieren.html">
+    <link rel="alternate" hreflang="x-default" href="https://photoblowup.github.io/blog/restore-old-photos.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../blog/css/blog.css">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "Startseite", "item": "https://photoblowup.github.io/de/" },
+                    { "@type": "ListItem", "position": 2, "name": "Blog", "item": "https://photoblowup.github.io/de/blog/" },
+                    { "@type": "ListItem", "position": 3, "name": "Alte Fotos restaurieren", "item": "https://photoblowup.github.io/de/blog/alte-fotos-restaurieren.html" }
+                ]
+            },
+            {
+                "@type": "Article",
+                "headline": "Alte Fotos mit KI restaurieren: Anleitung für Einsteiger",
+                "description": "Schritt-für-Schritt-Anleitung zur KI-Restaurierung alter Fotos – von der Digitalisierung bis zum druckfertigen Ergebnis.",
+                "author": { "@type": "Organization", "name": "Photo BlowUp Team" },
+                "publisher": { "@type": "Organization", "name": "Photo BlowUp" },
+                "datePublished": "2026-06-23",
+                "dateModified": "2026-06-23",
+                "inLanguage": "de",
+                "mainEntityOfPage": "https://photoblowup.github.io/de/blog/alte-fotos-restaurieren.html"
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Kann KI alte, verblasste Fotos wirklich restaurieren?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Ja. Moderne KI-Tools können Kratzer, Staubflecken und Körnung entfernen, Farben rekonstruieren und fehlende Details wie Gesichtszüge realistisch wiederherstellen. Die Ergebnisse hängen vom Zustand des Originals ab." }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Sollte ich alte Fotos selbst scannen oder professionell scannen lassen?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Für die meisten Familienfotos reicht ein Heimscanner mit 600 DPI. Für besonders wertvolle oder stark beschädigte Fotos empfiehlt sich ein professioneller Dienst mit Hochauflösungs-Scanner." }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Kann KI Kratzer und Risse in alten Fotos entfernen?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Ja. Die meisten modernen KI-Tools verfügen über Artefaktentfernung, die Kratzer, Staubflecken und kleine Risse automatisch erkennt und beseitigt. Bei großen Schäden kann manuelle Nacharbeit nötig sein." }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Wie kann ich die Farben eines verblassten Fotos wiederherstellen?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "KI-Farbkonvertierung kann schwarz-weiße Fotos in Farbe umwandeln. Bei bereits farbigen, aber verblassten Fotos helfen Bildbearbeitungsprogramme mit automatischer Farbkorrektur oder manuelle Anpassung." }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Kann ich ein restored Foto in großer Größe drucken?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Ja. Mit einem KI-Vergrößerer können Sie das restaurierte Foto auf die gewünschte Druckgröße skalieren. Das Ergebnis eignet sich oft für großformatige Wandbilder und Geschenke." }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Was kostet die Foto-Restaurierung mit KI?",
+                        "acceptedAnswer": { "@type": "Answer", "text": "Desktop-Tools wie Photo BlowUp kosten einmalig 39,95 $. Web-Dienste kosten typischerweise 5–15 $ pro Foto. Für viele Fotos ist ein Desktop-Tool langfristig günstiger." }
+                    }
+                ]
+            }
+        ]
+    }
+    </script>
+</head>
+<body lang="de">
+
+    <a href="#main-content" class="skip-link">Zum Hauptinhalt springen</a>
+
+    <header class="nav-header" id="navbar" role="banner">
+        <div class="nav-container">
+            <nav class="nav-inner" aria-label="Hauptnavigation">
+                <a href="../../de/" class="nav-logo" aria-label="Photo BlowUp Startseite">
+                    <img src="../../images/logo.png" alt="Photo BlowUp" width="240" height="60" loading="eager">
+                </a>
+                <div class="nav-links">
+                    <a href="../../de/#funktionen" class="nav-link">Funktionen</a>
+                    <a href="../../de/#anleitung" class="nav-link">Anleitung</a>
+                    <a href="../../de/#preise" class="nav-link">Preise</a>
+                    <a href="../../de/#faq" class="nav-link">FAQ</a>
+                    <a href="../blog/" class="nav-link" aria-current="page">Blog</a>
+                </div>
+                <div class="nav-actions">
+                    <div class="lang-switcher">
+                        <button class="lang-switcher-btn" aria-label="Sprache wechseln" aria-expanded="false">
+                            <span>DE</span>
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="lang-switcher-dropdown" role="menu">
+                            <a href="../../" class="lang-switcher-option" role="menuitem">English</a>
+                            <a href="../../de/" class="lang-switcher-option active" role="menuitem">Deutsch</a>
+                            <a href="../../fr/" class="lang-switcher-option" role="menuitem">Français</a>
+                            <a href="../../es/" class="lang-switcher-option" role="menuitem">Español</a>
+                            <a href="../../it/" class="lang-switcher-option" role="menuitem">Italiano</a>
+                            <a href="../../pt/" class="lang-switcher-option" role="menuitem">Português</a>
+                            <a href="../../nl/" class="lang-switcher-option" role="menuitem">Nederlands</a>
+                            <a href="../../ja/" class="lang-switcher-option" role="menuitem">日本語</a>
+                            <a href="../../zh/" class="lang-switcher-option" role="menuitem">中文</a>
+                        </div>
+                    </div>
+                    <a href="https://www.digistore24.com/redir/518674/vickykoire49539/" class="btn btn-primary nav-cta" target="_blank" rel="noopener noreferrer">Photo BlowUp kaufen</a>
+                </div>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Navigation öffnen" aria-expanded="false" aria-controls="mobile-nav-overlay">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <div class="mobile-nav-overlay" id="mobile-nav-overlay" aria-hidden="true" role="dialog" aria-label="Mobile Navigation">
+        <div class="mobile-nav-content">
+            <div class="mobile-nav-links">
+                <a href="../../de/#funktionen" class="mobile-nav-link">Funktionen</a>
+                <a href="../../de/#anleitung" class="mobile-nav-link">Anleitung</a>
+                <a href="../../de/#preise" class="mobile-nav-link">Preise</a>
+                <a href="../../de/#faq" class="mobile-nav-link">FAQ</a>
+                <a href="../blog/" class="mobile-nav-link">Blog</a>
+            </div>
+            <a href="https://www.digistore24.com/redir/518674/vickykoire49539/" class="btn btn-primary btn-lg btn-full mobile-nav-cta" target="_blank" rel="noopener noreferrer">Photo BlowUp kaufen</a>
+        </div>
+    </div>
+
+    <main id="main-content">
+
+        <section class="blog-header">
+            <div class="container">
+                <nav class="blog-breadcrumb" aria-label="Breadcrumb">
+                    <a href="../../de/">Startseite</a>
+                    <span>›</span>
+                    <a href="../blog/">Blog</a>
+                    <span>›</span>
+                    <span aria-current="page">Alte Fotos restaurieren</span>
+                </nav>
+                <span class="blog-category">Anwendungsfall</span>
+                <h1 class="blog-title">Alte Fotos mit KI restaurieren: Anleitung für Einsteiger</h1>
+                <div class="blog-meta">
+                    <span class="blog-meta-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                        Photo BlowUp Team
+                    </span>
+                    <span class="blog-meta-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                        23. Juni 2026
+                    </span>
+                    <span class="blog-meta-item blog-updated">
+                        Aktualisiert: 23. Juni 2026
+                    </span>
+                    <span class="blog-meta-item">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        12 Min. Lesezeit
+                    </span>
+                </div>
+            </div>
+        </section>
+
+        <article class="article-content">
+
+            <p>Erinnern Sie sich an die alten Fotoalben Ihrer Großeltern? Die schwarz-weißen Bilder vom Familientreffen, das Hochzeitsfoto, das第一张Ihrer Eltern als Kinder – all diese kostbaren Erinnerungen in Papierform. Leider verblasst die Zeit an diesen Fotos: Kratzer, Verfärbungen, Körnung und niedrige Auflösung machen sie unansehnlich. Früher wäre eine professionelle Restaurierung teuer und zeitaufwändig gewesen. Heute können Sie das mit KI in wenigen Minuten selbst tun.</p>
+
+            <p>In diesem Ratgeber zeige ich Ihnen Schritt für Schritt, wie Sie alte Fotos mit moderner KI-Technologie restaurieren – von der Digitalisierung über die Reparatur bis hin zum druckfertigen Ergebnis. Egal ob Sie Anfänger oder Fortgeschrittener sind: Die folgenden Schritte helfen Ihnen, Ihre kostbaren Erinnerungen zu bewahren.</p>
+
+            <h2>Warum alte Fotos restaurieren?</h2>
+
+            <p>Alte Fotos sind unersetzlich. Sie sind das einzige Fenster in die Vergangenheit unserer Familie. Doch Papier ist vergänglich – Feuchtigkeit, Licht, Hitze und einfach die Zeit greifen die Fotos an. Ohne Restaurierung werden diese Erinnerungen irgendwann vollständig verloren sein.</p>
+
+            <p>Mit KI können Sie nicht nur die Schäden beseitigen, sondern das Foto sogar verbessern: Gesichtszüge rekonstruieren, Farben wiederherstellen, Kratzer entfernen und das Bild für großformatige Drucke vergrößern. Stellen Sie sich vor, wie Sie ein 50 Jahre altes Familienfoto als großes Wandbild über dem Sofa aufhängen – in einer Qualität, die das Original nie hatte.</p>
+
+            <h2>Vorbereitung: Das Foto scannen</h2>
+
+            <p>Der erste Schritt ist die Digitalisierung. Ohne einen hochwertigen Scan kann die KI nicht ihre Magie entfalten.</p>
+
+            <h3>Mit einem Heimscanner</h3>
+
+            <ul>
+                <li><strong>Auflösung:</strong> Scannen Sie mit mindestens 300 DPI, besser 600 DPI. Für sehr kleine Fotos (Passfoto-Größe) empfehle ich 1200 DPI.</li>
+                <li><strong>Format:</strong> Verwenden Sie TIFF oder PNG als Ausgabeformat. JPEG ist weniger ideal, da es verlustbehaftet komprimiert.</li>
+                <li><strong>Bereinigung:</strong> Entfernen Sie Staub vom Scanner und vom Foto mit einem weichen Pinsel. Verwenden Sie kein Wasser oder Reinigungsmittel.</li>
+                <li><strong>Ausrichtung:</strong> Platzieren Sie das Foto gerade auf dem Scanner. Ein leichter Winkel kann später digitale Verzerrungen verursachen.</li>
+                <li><strong>Vorlage:</strong> Bei einem Flachbettscanner legen Sie das Foto kopfüber auf die Glasplatte. Bei einem Durchlichtscanner erhalten Sie in der Regel bessere Ergebnisse.</li>
+            </ul>
+
+            <h3>Mit dem Smartphone</h3>
+
+            <p>Falls Sie keinen Scanner haben, reicht ein modernes Smartphone aus:</p>
+
+            <ul>
+                <li>Verwenden Sie eine Scan-App wie Google PhotoScan oder Adobe Scan</li>
+                <li>Stellen Sie sicher, dass das Foto gut beleuchtet ist – kein Schatten, kein Blitz-Reflection</li>
+                <li>Halten Sie das Phone parallel zum Foto, um Verzerrungen zu vermeiden</li>
+                <li>Die Qualität ist nicht ganz so gut wie mit einem Scanner, aber für die meisten Zwecke ausreichend</li>
+            </ul>
+
+            <h2>Schritt 2: Die richtige KI-Software wählen</h2>
+
+            <p>Für die Restaurierung alter Fotos brauchen Sie ein Tool, das mehrere Aufgaben gleichzeitig erledigen kann: Rauschreduzierung, Artefaktentfernung und Vergrößerung. Hier meine Empfehlungen:</p>
+
+            <h3>Photo BlowUp – Meine erste Wahl</h3>
+
+            <p>Photo BlowUp ist ideal für die Restaurierung alter Fotos. Das Tool kombiniert eine leistungsstarke KI-Rauschreduzierung mit einer Vergrößerung bis zu 4x. Es erkennt automatisch Körnung, Kratzer und niedrige Auflösung und wendet die passende Verarbeitung an. Die einfache Bedienung macht es perfekt für Einsteiger.</p>
+
+            <div class="article-cta">
+                <h3 class="article-cta-title">Photo BlowUp ausprobieren</h3>
+                <p class="article-cta-text">39,95 $ einmalig. Perfekt für die Restaurierung alter Familienfotos.</p>
+                <a href="https://www.digistore24.com/redir/518674/vickykoire49539/" class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">
+                    Photo BlowUp kaufen
+                    <span class="btn-icon">→</span>
+                </a>
+            </div>
+
+            <h3>Topaz Gigapixel AI – Die Premium-Option</h3>
+
+            <p>Topaz bietet dedizierte KI-Modelle für verschiedene Bildtypen. Das „Low Resolution"-Modell ist speziell für sehr alte Fotos konzipiert und liefert beeindruckend scharfe Ergebnisse.</p>
+
+            <h3>Remini (Web/App) – Für schnelle Ergebnisse</h3>
+
+            <p>Remini ist eine Web-basierte Lösung, die besonders gut bei Gesichtern arbeitet. Die Ergebnisse sind oft spektakulär, aber die Verarbeitung erfolgt auf Servern – Ihre Fotos verlassen den Computer.</p>
+
+            <h2>Schritt 3: Körnung und Rauschen beseitigen</h2>
+
+            <p>Das ist der wichtigste Schritt für alte Fotos. Körnung (Film-Grain) und sensorisches Rauschen sind bei alten Bildern allgegenwärtig. Die KI-Rauschreduzierung arbeitet anders als herkömmliche Methoden:</p>
+
+            <p>Während herkömmliche Glättung einfach alle Kanten verwischt (was das Bild weich und unscharf macht), erkennt die KI den Unterschied zwischen unerwünschtem Rauschen und gewünschten Details. Sie glättet die gleichmäßigen Flächen, während sie Kanten und Strukturen erhält.</p>
+
+            <p>Bei Photo BlowUp passiert dies automatisch im Vergrößerungsprozess. Die KI analysiert das Bild, erkennt rauschende Bereiche und behandelt sie gezielt. Das Ergebnis: Ein sauberes Bild ohne die typische „Wachsfigur"-Wirkung übermäßig geglätteter Fotos.</p>
+
+            <h2>Schritt 4: Kratzer und Artefakte entfernen</h2>
+
+            <p>Alte Fotos sind oft von Kratzer, Staubflecken und kleinen Rissen gezeichnet. Moderne KI-Tools erkennen diese Artefakte automatisch und ersetzen sie durch plausible Bildinhalte.</p>
+
+            <p>Der Prozess funktioniert so:</p>
+
+            <ul>
+                <li>Die KI analysiert das Bild auf Unregelmäßigkeiten</li>
+                <li>Sie erkennt Muster, die nicht zur Umgebung passen (z.B. helle Linien auf dunklem Hintergrund)</li>
+                <li>Sie ersetzt die beschädigten Pixel durch Pixel, die zur Umgebung passen</li>
+            </ul>
+
+            <p>Für kleine Kratzer und Staubfleken funktioniert das automatisch hervorragend. Bei größeren Schäden (z.B. ein gerissener Bereich, der ein Gesicht verdeckt) kann manuelle Nacharbeit in Photoshop nötig sein. Für die meisten Familienfotos reicht jedoch die automatische Verarbeitung vollkommen aus.</p>
+
+            <h2>Schritt 5: Farben wiederherstellen</h2>
+
+            <p>Bei schwarz-weißen Fotos können Sie mit KI-Farbkonvertierung eine farbige Version erstellen. Die Technologie hat sich in den letzten Jahren dramatisch verbessert. Tools wie DeOldify und die Farbkonvertierung in Remini liefern oft erstaunlich realistische Ergebnisse.</p>
+
+            <p>Beachten Sie: Die KI errät die Farben. Sie weiß, dass Gras normalerweise grün ist und Himmel blau, aber bei speziellen Situationen (z.B. ein rotes Kleid oder ein ungewöhnlicher Hintergrund) können die erratenen Farben nicht immer stimmen. Es lohnt sich, das Ergebnis in einem Bildbearbeitungsprogramm zu überprüfen und bei Bedarf anzupassen.</p>
+
+            <p>Für bereits farbige, aber verblasste Fotos empfehle ich eine automatische Farbkorrektur in einem Tool wie Lightroom oder sogar einem kostenlosen Online-Editor. Die meisten modernen Programme können Belichtung, Kontrast und Farbsättigung automatisch optimieren.</p>
+
+            <h2>Schritt 6: Vergrößern für den Druck</h2>
+
+            <p>Nach der Restaurierung möchten Sie das Foto wahrscheinlich in großer Größe ausdrucken. Hier kommt die KI-Vergrößerung ins Spiel.</p>
+
+            <p>Die meisten alten Fotos haben eine sehr niedrige Auflösung – oft nur 1–2 Megapixel. Um sie für einen großformatigen Druck nutzbar zu machen, müssen sie vergrößert werden. Mit Photo BlowUp können Sie das Foto um das 2- bis 4-fache vergrößern, während die KI fehlende Details rekonstruiert.</p>
+
+            <p>Faustregel für die Druckgröße:</p>
+
+            <ul>
+                <li><strong>20x25 cm:</strong> Benötigt ca. 6 Megapixel – die meisten Fotos schaffen das nach 2x-Vergrößerung</li>
+                <li><strong>30x40 cm:</strong> Benötigt ca. 12 Megapixel – erfordert 3x-Vergrößerung aus einem 1-MP-Original</li>
+                <li><strong>60x90 cm:</strong> Benötigt ca. 30 Megapixel – erfordert 4x-Vergrößerung aus einem 2-MP-Original</li>
+            </ul>
+
+            <h2>Praktische Beispiele</h2>
+
+            <h3>Beispiel 1: Das Hochzeitsfoto von 1970</h3>
+
+            <p>Schwarz-weiß, leicht verblasst, einige Kratzer auf der Oberfläche. Nach dem Scannen mit 600 DPI und Verarbeitung mit Photo BlowUp: Die Kratzer verschwanden, die Körnung wurde eliminiert, und die Gesichtszüge waren scharf und detailreich. Das Ergebnis eignete sich für einen 40x50-cm-Druck als Geschenk für die Familienmitglieder.</p>
+
+            <h3>Beispiel 2: Das Familienfoto aus den 90ern</h3>
+
+            <p>Ein farbiges Foto mit typischen 90er-Jahre-Farben – leicht verblasst, mit orangefarbener Hauttönung. Nach der Verarbeitung mit automatischer Farbkorrektur und 3x-Vergrößerung: Die Farben wurden natürlich korrigiert, die Details waren scharf, und das Foto eignete sich für einen 30x45-cm-Wanddruck.</p>
+
+            <h3>Beispiel 3: Das Passfoto der Großmutter</h3>
+
+            <p>Ein kleines, quadratisches Schwarz-Weiß-Foto von 1955, ca. 3x4 cm. Nach dem Scannen mit 1200 DPI und Verarbeitung mit Topaz Gigapixel AI im Low-Resolution-Modus: Die Gesichtszüge wurden rekonstruiert, die Körnung eliminiert, und das Ergebnis eignete sich für einen 20x20-cm-Druck.</p>
+
+            <h2>Tipps für die beste Restaurierung</h2>
+
+            <ul>
+                <li><strong>Scannen Sie hochwertig:</strong> Je höher die Scan-Auflösung, desto besser wird das Ergebnis. Investieren Sie Zeit in einen guten Scan.</li>
+                <li><strong>Behalten Sie das Original:</strong> Speichern Sie immer eine Kopie des Scans, bevor Sie mit der Restaurierung beginnen.</li>
+                <li><strong>Arbeiten Sie schrittweise:</strong> Zuerst Rauschen entfernen, dann Kratzer beseitigen, dann vergrößern. Nicht alles auf einmal.</li>
+                <li><strong>Seien Sie realistisch:</strong> KI kann Wunder wirken, aber bei extrem beschädigten Fotos gibt es Grenzen. Manchmal ist manuelle Nacharbeit nötig.</li>
+                <li><strong>Drucken Sie in guter Qualität:</strong> Verwenden Sie ein hochwertiges Fotopapier und einen guten Druckdienst für das finale Ergebnis.</li>
+            </ul>
+
+            <div class="key-takeaway">
+                <div class="key-takeaway-title">Zusammenfassung</div>
+                <p>Alte Fotos mit KI zu restaurieren ist einfacher als man denkt. Scannen Sie das Foto hochwertig, laden Sie es in ein KI-Tool wie Photo BlowUp, und die Software erledigt den Rest: Rauschen entfernen, Kratzer beseitigen, Details rekonstruieren und für den Druck vergrößern. Ihre kostbaren Erinnerungen verdienen es, bewahrt zu werden.</p>
+            </div>
+
+            <section class="article-faq">
+                <h2>Häufig gestellte Fragen</h2>
+
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Kann KI alte, verblasste Fotos wirklich restaurieren?</span>
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq-answer" hidden>
+                            Ja. Moderne KI-Tools können Kratzer, Staubflecken und Körnung entfernen, Farben rekonstruieren und fehlende Details wie Gesichtszüge realistisch wiederherstellen. Die Ergebnisse hängen vom Zustand des Originals ab.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Sollte ich alte Fotos selbst scannen oder professionell scannen lassen?</span>
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq-answer" hidden>
+                            Für die meisten Familienfotos reicht ein Heimscanner mit 600 DPI. Für besonders wertvolle oder stark beschädigte Fotos empfiehlt sich ein professioneller Dienst mit Hochauflösungs-Scanner.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Kann KI Kratzer und Risse in alten Fotos entfernen?</span>
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq-answer" hidden>
+                            Ja. Die meisten modernen KI-Tools verfügen über Artefaktentfernung, die Kratzer, Staubflecken und kleine Risse automatisch erkennt und beseitigt. Bei großen Schäden kann manuelle Nacharbeit nötig sein.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Wie kann ich die Farben eines verblassten Fotos wiederherstellen?</span>
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq-answer" hidden>
+                            KI-Farbkonvertierung kann schwarz-weiße Fotos in Farbe umwandeln. Bei bereits farbigen, aber verblassten Fotos helfen Bildbearbeitungsprogramme mit automatischer Farbkorrektur oder manuelle Anpassung.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Kann ich ein restored Foto in großer Größe drucken?</span>
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq-answer" hidden>
+                            Ja. Mit einem KI-Vergrößerer können Sie das restaurierte Foto auf die gewünschte Druckgröße skalieren. Das Ergebnis eignet sich oft für großformatige Wandbilder und Geschenke.
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question" aria-expanded="false">
+                            <span>Was kostet die Foto-Restaurierung mit KI?</span>
+                            <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                        </button>
+                        <div class="faq-answer" hidden>
+                            Desktop-Tools wie Photo BlowUp kosten einmalig 39,95 $. Web-Dienste kosten typischerweise 5–15 $ pro Foto. Für viele Fotos ist ein Desktop-Tool langfristig günstiger.
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="author-box">
+                <img src="../../images/author-avatar.svg" alt="Photo BlowUp Redaktionsteam" width="80" height="80" class="author-avatar-img" loading="lazy">
+                <div>
+                    <div class="author-name">Photo BlowUp Team</div>
+                    <div class="author-role">Bildverarbeitung &amp; Fotografie-Software-Tester</div>
+                    <p class="author-bio">Wir haben Hunderte von Stunden damit verbracht, KI-Foto-Vergrößerungstests zu vergleichen – Ausgabequalität, Verarbeitungsgeschwindigkeit und reale Ergebnisse. Unser Team umfasst Fotografen, Grafikdesigner und Druckereiprofis, die täglich auf diese Tools angewiesen sind.</p>
+                </div>
+            </div>
+
+        </article>
+
+        <section class="related-posts">
+            <h2 class="related-posts-title">Verwandte Artikel</h2>
+            <div class="related-posts-grid">
+                <div class="related-post-card">
+                    <span class="related-post-category">Anleitung</span>
+                    <h3 class="related-post-title"><a href="./pixelierte-fotos-reparieren.html">Pixelierte Fotos mit KI reparieren</a></h3>
+                    <p class="related-post-excerpt">Schritt-für-Schritt-Anleitung zur Reparatur pixelierter Fotos.</p>
+                </div>
+                <div class="related-post-card">
+                    <span class="related-post-category">Ratgeber</span>
+                    <h3 class="related-post-title"><a href="./fotos-vergroessern.html">Fotos vergrößern ohne Qualitätsverlust</a></h3>
+                    <p class="related-post-excerpt">So vergrößern Sie Fotos mit KI – ohne Pixelierung.</p>
+                </div>
+                <div class="related-post-card">
+                    <span class="related-post-category">Ratgeber</span>
+                    <h3 class="related-post-title"><a href="./was-ist-ki-bildvergroesserung.html">Was ist KI-Bildvergrößerung?</a></h3>
+                    <p class="related-post-excerpt">Erfahren Sie, wie neuronale Netze Ihre Fotos verbessern.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="../../de/" class="footer-logo" aria-label="Photo BlowUp Startseite">
+                        <img src="../../images/logo.png" alt="Photo BlowUp" width="210" height="52" loading="eager">
+                    </a>
+                    <p class="footer-tagline">KI-gestützte Bildvergrößerung. Erstellen Sie in Minuten großartige Drucke und hochwertige Vergrößerungen.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/exposuresoftware" class="social-link" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+                        <a href="https://x.com/exposuresw" class="social-link" aria-label="Twitter" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/></svg></a>
+                        <a href="https://www.instagram.com/exposuresoftware" class="social-link" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                        <a href="https://www.youtube.com/c/exposuresoftware" class="social-link" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" fill="white"/></svg></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Produkt</h4>
+                    <div class="footer-links">
+                        <a href="../../de/#funktionen">Funktionen</a>
+                        <a href="../../de/#anleitung">Anleitung</a>
+                        <a href="../../de/#preise">Preise</a>
+                        <a href="../../de/#faq">FAQ</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Rechtliches</h4>
+                    <div class="footer-links">
+                        <a href="../../privacy.html">Datenschutz</a>
+                        <a href="../../terms.html">Nutzungsbedingungen</a>
+                        <a href="../../disclaimer.html">Haftungsausschluss</a>
+                        <a href="../../contact.html">Kontakt</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer-heading">Sprachen</h4>
+                    <div class="footer-links">
+                        <a href="../../">English</a>
+                        <a href="../../de/">Deutsch</a>
+                        <a href="../../fr/">Français</a>
+                        <a href="../../es/">Español</a>
+                        <a href="../../it/">Italiano</a>
+                        <a href="../../pt/">Português</a>
+                        <a href="../../nl/">Nederlands</a>
+                        <a href="../../ja/">日本語</a>
+                        <a href="../../zh/">中文</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; 2026 Photo BlowUp. Alle Rechte vorbehalten.</p>
+                <p class="footer-disclaimer">Photo BlowUp ist nicht verbunden mit Adobe, Canon, Nikon, Sony oder anderen erwähnten Marken. Alle Produktnamen und Marken sind Eigentum ihrer jeweiligen Inhaber.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../js/main.js" defer></script>
+</body>
+</html>
